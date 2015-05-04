@@ -11,18 +11,16 @@ BSD (see license.md)
 ### Features: 
 - Fast time-implicit levelsets in 2D/3D
     - Binary 
-	- Coupled
-	- Multi-phase
-
+    - Coupled
+    - Multi-phase
 - Implemented in multiple languages
    - Matlab/mex/C
    - Matlab/CUDA
-
 - Tutorials
-	- T01 Time-implicit levelset propagation
+    - T01 Time-implicit levelset propagation
     - T02 Binary levelset image segmentation
- 
 - Application examples for (medical) image segmentation:
+    - 3D multi-phase levelset segmentation
 
 
 ### Overview of folder structure:   

@@ -1,0 +1,20 @@
+Website: 
+[ ] - Update to include this repo
+
+Applications: 
+[ ] - Iterative MF distribution matching
+[ ] - Refactor visualization 
+[ ] - Star-shape prior application 
+[ ] - Expectation maximization
+[ ] - Chan-Vese data term
+
+Tutorials:
+[ ] - Coupled levelset propagation
+[ ] - Multi-phase levelset propagation
+[ ] - Expectation maximization
+
+
+
+
+
+

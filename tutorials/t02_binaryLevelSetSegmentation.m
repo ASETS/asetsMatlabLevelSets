@@ -65,7 +65,7 @@ for t=1:maxLevelSetIterations
     d_int_inside = abs(img_n - m_int_inside);
     d_int_outside = abs(img_n - m_int_outside);
     
-    % 8. Compute speed data term as in Tutorial 04:
+    % 8. Compute speed data term as in Tutorial 01:
     d_speed_inside = ((1-region).*d_speed_inside)./tau;
     d_speed_outside = (region.*d_speed_outside)./tau;
     

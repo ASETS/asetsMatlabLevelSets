@@ -19,6 +19,7 @@ BSD (see license.md)
 - Tutorials
     - T01 Time-implicit levelset propagation
     - T02 Binary levelset image segmentation
+    - T03 Coupled levelset image segmentation
 - Application examples for (medical) image segmentation:
     - 3D multi-phase levelset segmentation
 
@@ -39,7 +40,7 @@ compile.m
 which creates the folder *./lib*. For testing purposes run any script in *./tests*.   
 
 ### Tests:  
-- Matlab 2014a, 64-bit Linux (Ubuntu 12.04 LTS)  
+- Matlab 2014a, 64-bit Linux (Ubuntu 14.04 LTS)  
 - Matlab 2015a, 64-bit Windows 7
 - Matlab 2012a, 32-bit WinXP
 

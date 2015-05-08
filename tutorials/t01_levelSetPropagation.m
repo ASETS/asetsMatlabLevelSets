@@ -13,7 +13,6 @@
 %       IEEE Transactions on Medical Imaging, 2013
 
 
-
 clear all; close all;
 
 % include max-flow solver

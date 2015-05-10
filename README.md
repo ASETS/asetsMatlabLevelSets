@@ -20,6 +20,7 @@ BSD (see license.md)
     - T01 Time-implicit levelset propagation
     - T02 Binary levelset image segmentation
     - T03 Coupled levelset image segmentation
+    - T04 Multi-phase levelsets image segmentation
 - Application examples for (medical) image segmentation:
     - 3D multi-phase levelset segmentation
 
@@ -31,6 +32,7 @@ BSD (see license.md)
 *./lib*: Is created by compile.m and contains the compiled C/mex files  
 *./maxflow*: asetsMaxFlow optimization code in C/mex and Matlab 
 *./tutorials*: Contains available tutorials   
+*./utils*: Utilities for applications and tutorials 
 
 ### Compile/Installation instructions:  
 To compile the C/mex code run:

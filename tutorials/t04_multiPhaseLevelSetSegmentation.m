@@ -45,8 +45,8 @@ alpha = zeros(sx,sy,numberOfLabels);
 % 5. Set up parameters and start level set iterations:
 maxLevelSetIterations = 10; % number of maximum time steps
 tau = 250; % speed parameter
-w1 = 0.7; % weight parameter for intensity data term
-w2 = 0.3; % weight parameter for the speed data term
+w1 = 0.9; % weight parameter for intensity data term
+w2 = 0.1; % weight parameter for the speed data term
 
 for t=1:maxLevelSetIterations
         
@@ -65,12 +65,10 @@ for t=1:maxLevelSetIterations
         % 8. Compute an simple example intensity data term based on the 
         % L1 distance to the mean of the current region
         m_int_inside = mean(mean(img_n(currRegion == 1)));
-        m_int_outside =  mean(mean(img_n(currRegion == 0)));
-        
+               
         d_int_inside = abs(img_n - m_int_inside);
-        d_int_outside = abs(img_n - m_int_outside);
-        
-        d_int = d_int_outside + d_int_inside;
+                
+        d_int = d_int_inside;
         
         % 9. Weight the contribution of both costs and assign them as sink 
         % capacities Ct in the graph. Note, that in the Potts 
